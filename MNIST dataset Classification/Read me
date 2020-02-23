@@ -1,7 +1,8 @@
 Different activation loss functions for neural networks were used to recognize images of digits of MNIST dataset with final accuray 
-around 6-8 percent. Deep layer neural networks were trained using sigmoid and relu activation function and results were compared. 
+around 6-8 percent. Deep layer neural networks were trained using sigmoid and relu activation function and results were compared. The error curve
+for Relu converged faster than sigmoid and the difference between train and test dataset was significantly low.
 Stochastic gradient technique was also used to compare its efficiency with batch learning that achieved an error of 8.67 percents in 
-just 15 epochs.
+just 15 epochs.TIn batch learning, the same accuracy was achieved in around 5000 iterations.
 Adaboost algorithm was used to classify test images of test dataset with final accuracy around 9.13 
 %. Its efficiency for each classifer was analyzed using margin plot and images
 of the most frequenlty misclassified images along with pictorial view of weak learners. 
